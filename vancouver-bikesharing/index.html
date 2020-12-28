@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vancouver Bike sharing</title>
+    <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@1&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body> 
+
+    <header>
+        <div class="header-title">
+            <h1>Vancouver Bike Sharing</h1>
+        </div>
+        <div class="header-control">
+            <div class="btn-group">
+              <button class="availability-switch-btn active" data-control="free_bikes">Available bikes</button>
+              <button class="availability-switch-btn" data-control="empty_slots">Empty slots</button>
+            </div>
+        </div>
+    </header>
+
+    <div id="bikesharing-map"></div>
+    
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/bikeSharingMap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
