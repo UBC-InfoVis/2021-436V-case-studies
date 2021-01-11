@@ -5,6 +5,7 @@ body.page {
 
 h1 {
   margin-top: 0;
+  margin-bottom: 10px;
   font-family: 'Castoro', serif;
   font-style: italic;
   font-size: 2rem;
@@ -24,12 +25,12 @@ h1 {
 .year-area {
   shape-rendering: crispedges;
 }
-
 .annotation-line {
   stroke: #000;
   shape-rendering: crispedges;
 }
 
+/* Palmer Index: category colours */
 .cat-0 {
   fill: #dd3322;
 }
@@ -52,11 +53,34 @@ h1 {
   fill: #119955;
 }
 
-.focus-bar {
+.cat.inactive {
+  fill-opacity: 0.2;
+}
+
+.highlight-rect {
   stroke: #000;
   fill: none;
   pointer-events: none;
   shape-rendering: crispedges;
+}
+
+/* Legend */
+.legend-title {
+  font-size: .79rem;
+}
+.legend-axis-text {
+  font-size: .725rem;
+  fill: #555;
+}
+.legend-line {
+  stroke: #888;
+  shape-rendering: crispedges;
+  pointer-events: none;
+}
+.legend-caption {
+  fill: #888;
+  font-style: italic;
+  font-size: .65rem;
 }
 
 /* Misc */

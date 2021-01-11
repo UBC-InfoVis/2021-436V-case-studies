@@ -1,13 +1,14 @@
-
-let data, heatmap;
-
 /**
- * Load data from CSV file asynchronously and render charts
+ * Load data from CSV file asynchronously and render chart
  */
-d3.json('data/measles_data.json').then(_data => {
-  data = _data;
-  heatmap = new Heatmap({ 
-    parentElement: '#vis'
+d3.json('data/measles_data.json').then(data => {
+  const heatmap = new Heatmap({
+    parentElement: '#heatmap-container',
+    vaccineIntroduced: 1963
   }, data);
-  heatmap.updateVis();
+  
+  d3.select('#sort-control').on('change', function() {
+    heatmap.config.sortOption = d3.select(this).property('value');
+    heatmap.updateVis();
+  });
 });
