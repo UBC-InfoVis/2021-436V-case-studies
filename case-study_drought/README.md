@@ -2,7 +2,7 @@
 
 In this case study, we recreate a timeline visualization by Mike Bostock and Shan Carter that was originally published in [The New York Times](https://archive.nytimes.com/www.nytimes.com/interactive/2012/08/11/sunday-review/drought-history.html). It presents periods of dryness, based on the [Palmer Drought Index](https://en.wikipedia.org/wiki/Palmer_drought_index), in the contiguous U.S. between 1895 and 2013.
 
-You can see the full source code of this case study on [Github](https://github.com/UBC-InfoVis/2021-436V-case-studies/case-study_drought/) and in the browser-based IDE [codesandbox](https://githubbox.com/UBC-InfoVis/2021-436V-case-studies/case-study_drought/).
+**You can see the full source code of this case study on [Github](https://github.com/UBC-InfoVis/2021-436V-case-studies/case-study_drought/) and in the browser-based IDE [codesandbox](https://githubbox.com/UBC-InfoVis/2021-436V-case-studies/case-study_drought/).**
 
 A screenshot of the final visualization is shown below.
 

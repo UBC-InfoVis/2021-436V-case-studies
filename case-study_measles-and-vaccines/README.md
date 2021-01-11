@@ -2,6 +2,8 @@
 
 In this case study, we recreate a visualization that was created by Tynan DeBold and Dov Friedman and originally published in the Wall Street Journal as part of the article [Battling Infectious Diseases in the 20th Century](http://graphics.wsj.com/infectious-diseases-and-vaccines/). We will make minor style changes and extend the visualization slightly to walk you through some additional D3 features.
 
+**You can see the full source code of this case study on [Github](https://github.com/UBC-InfoVis/2021-436V-case-studies/case-study_measles-and-vaccines/) and in the browser-based IDE [codesandbox](https://githubbox.com/UBC-InfoVis/2021-436V-case-studies/case-study_measles-and-vaccines/).**
+
 A screenshot of the final visualization is shown below. The heatmap illustrates how the first vaccine impacted the number of measles cases in the United States. 
 
 * The rows denote the 50 states and the District of Columbia. The columns correspond to the time period from 1928 to 2011.
@@ -11,8 +13,6 @@ A screenshot of the final visualization is shown below. The heatmap illustrates 
 * A colour legend is shown in the top right corner.
 
 ![Result](resources/result.png?raw=true "Heatmap")
-
-You can see the full source code of this case study on [Github](https://github.com/UBC-InfoVis/2021-436V-case-studies/case-study_measles-and-vaccines/) and in the browser-based IDE [codesandbox](https://githubbox.com/UBC-InfoVis/2021-436V-case-studies/case-study_measles-and-vaccines/).
 
 #### Outline
 
