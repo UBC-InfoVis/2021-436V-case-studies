@@ -4,4 +4,3 @@ A collection of our own creations and reproductions of notable visualizations. A
 
 1. **[Drought and Deluge in the Lower 48](case-study_drought)** ([Original by the NYT](https://archive.nytimes.com/www.nytimes.com/interactive/2012/08/11/sunday-review/drought-history.html))
 2. **[The Impact of Vaccines on the Measles](case-study_measles-and-vaccines)** ([Original by the WSJ](http://graphics.wsj.com/infectious-diseases-and-vaccines/))
-3. Will be released later: [Vancouver Bike Sharing Map](case-study_vancouver-bikesharing)
